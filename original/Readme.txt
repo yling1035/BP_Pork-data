@@ -1,0 +1,8 @@
+使用numpy.load("train0.npy")同理读取数据
+每条数据为行向量
+train0是label为0的数据
+train1是label为1的数据
+用train0与train1进行训练
+在test0a与test1a验证正确率
+
+注意不要将test0a与test1a并入训练集，因为还有test0b与test1b作为独立验证防作弊
